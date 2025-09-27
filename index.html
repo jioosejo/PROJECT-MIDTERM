@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John Isidore Osejo</title>
+  <link rel="preload" href="css/styles.css" as="style">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Skip Link -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header (landmark) -->
+  <header role="banner">
+    <div class="logo">
+      <h1>John Isidore Osejo</h1>
+    </div>
+    <nav class="top-nav" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+
+  <!-- Main (landmark) -->
+  <main id="main" role="main">
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <div class="about-container">
+        <img src="assets/images (5).jpg" alt="Universidad De Dagupan">
+        <p>
+          Hello! I’m <strong>John Isidore Osejo</strong>, an aspiring web developer.  
+          I care about clean code, accessibility, and performance.  
+          This page demonstrates HTML + CSS best practices.
+        </p>
+      </div>
+    </section>
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <ul class="projects-grid">
+        <li>
+          <article class="project-card">
+            <h3>Project One</h3>
+            <p>Short description of what it does and what you learned.</p>
+            <a href="#">View</a>
+          </article>
+        </li>
+        <li>
+          <article class="project-card">
+            <h3>Project Two</h3>
+            <p>Short description of what it does and what you learned.</p>
+            <a href="#">View</a>
+          </article>
+        </li>
+        <li>
+          <article class="project-card">
+            <h3>Project Three</h3>
+            <p>Short description of what it does and what you learned.</p>
+            <a href="#">View</a>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <hr>
+
+  <!-- Footer (landmark) -->
+  <footer id="contact" role="contentinfo">
+    <p>&copy; 2025 • <a href="mailto:you@example.com">jiosejo@example.com</a></p>
+  </footer>
+</body>
+</html>
